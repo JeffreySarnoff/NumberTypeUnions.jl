@@ -1,9 +1,9 @@
 module NumberTypes
 
-export SystemFloat, SystemSigned, SystemUnsigned
-       SysFloat, SystSigned, SyUnsigned,
-       SysNum128, SysNum64, SysNum32, SysNum16, SysNum8
-
+export SysFloat, SysSigned, SyUnsigned,
+       SysNum128, SysNum64, SysNum32, SysNum16, SysNum8,
+       CoreFloat, CoreSigned, CoreUnsigned
+       
 
 const SystemFloat    = Union{ Float64, Float32 } 
 const SystemSigned   = Union{   Int64,   Int32 } 
