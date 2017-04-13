@@ -15,7 +15,7 @@ const SysUnsigned = Union{ UInt128, UInt64,  UInt32, UInt16, UInt8 }
 
 const SysNum128 = Union{ UInt128, Int128 } 
 const SysNum64  = Union{ UInt64, Int64, Float64}
-const SysNum32  = Union{ UInt32, Int32,  Float32}
+const SysNum32  = Union{ UInt32, Int32, Float32}
 const SysNum16  = Union{ UInt16, Int16, Float16 } 
 const SysNum8   = Union{ UInt8, Int8 } 
 
