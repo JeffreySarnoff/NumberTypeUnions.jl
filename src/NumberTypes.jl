@@ -1,16 +1,23 @@
 module NumberTypes
 
-export SysFloat, SysSInt, SysUInt,
+export SystemFloat, SystemSigned, SystemUnsigned
+       SysFloat, SystSigned, SyUnsigned,
        SysNum128, SysNum64, SysNum32, SysNum16, SysNum8
 
-const SysSigned   = Union{   Int64,   Int32 } 
-const SysUnsigned = Union{  UInt64,  UInt32 } 
-const SysFloat    = Union{ Float64, Float32 } 
 
-const SystemFloat    = Union{ Float64, Float32, Float16 } 
-const SystemSigned   = Union{ Int128,   Int64,   Int32,  Int16,  Int8 } 
-const SystemUnsigned = Union{ UInt128, UInt64,  UInt32, UInt16, UInt8 } 
+const SystemFloat    = Union{ Float64, Float32 } 
+const SystemSigned   = Union{   Int64,   Int32 } 
+const SystemUnsigned = Union{  UInt64,  UInt32 } 
 
+const SysFloat    = Union{ Float64, Float32, Float16 } 
+const SysSigned   = Union{ Int128,   Int64,   Int32,  Int16,  Int8 } 
+const SysUnsigned = Union{ UInt128, UInt64,  UInt32, UInt16, UInt8 } 
+
+const SysNum128 = Union{ UInt128, Int128 } 
+const SysNum64  = Union{ UInt64, Int64, Float64}
+const SysNum32  = Union{ UInt32, UInt32,  UInt32, UInt16, UInt8 } 
+const SysNum16  = Union{ Int128,   Int64,   Int32,  Int16,  Int8 } 
+const SysNum8   = Union{ Int128,   Int64,   Int32,  Int16,  Int8 } 
 
 
 
