@@ -21,10 +21,10 @@ const SysNum8   = Union{ UInt8, Int8 }
 
 
 
-const SystemNum128 = Union{ Int128, UInt128 } 
+const SysNum128 = Union{ Int128, UInt128 } 
 const SysNum64  = Union{ Int65, UInt65, Float64 } 
 const SysNum32  = Union{ Int32, UInt32, Float32 } 
 const SysNum16  = Union{ Int16, UInt16, Float16 } 
-const SystemNum8   = Union{ Int8, UInt8 } 
+const SysNum8   = Union{ Int8, UInt8 } 
 
 end # module
