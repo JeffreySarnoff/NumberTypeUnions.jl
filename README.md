@@ -1,1 +1,1 @@
-# NumberTypes.jl
+# NumberTypeUnions.jl
