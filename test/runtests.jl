@@ -1,5 +1,10 @@
 using NumberTypeUnions
-using Test
+
+if VERSION >= v"0.7-"
+    using Test
+else
+    using Base.Test
+end
 
 @test Float64 <: IntFloat64 
 @test Int64 <: IntFloat64
