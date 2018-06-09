@@ -6,8 +6,9 @@
 
 ----
 
+## exports
 
-## exports: Type Unions
+### Type Unions
 
 | Named Unions                               | Types gathered                             |
 |:-------------------------------------------|:-------------------------------------------|
@@ -18,9 +19,13 @@
 
 - Base.IEEEFloat (Union{Float64, Float32, Float16}) is reexported as IEEEFloat
 
-## exports: Type from sizeof(type)
+### Type Functions
+
+#### Type from sizeof(type)
 
 - bytes2Int, bytes2UInt, bytes2Float
+
+&nbsp;
 
 ```julia
 using NumberTypeUnions
