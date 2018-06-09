@@ -7,7 +7,7 @@
 ----
 
 
-## exports: Type Unions
+## Type Unions
 
 #### Local Unions
 
@@ -18,12 +18,12 @@
 | IntFloat64, IntFloat32, IntFloat16         | {Int64, Float64}, {Int32, Float32}, ..     |
 | Integer128, Integer64, Integer32, Integer8 | .., {Int64, UInt64},  {Int32, UInt32}, ..  |
 
-#### from Base
+#### Imported Unions
 
 Base.IEEEFloat (Union{Float64, Float32, Float16}) is reexported as IEEEFloat
 
 
-## exports: Type Functions
+## Type Functions
 
 #### Type from sizeof(type)
 
