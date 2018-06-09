@@ -1,4 +1,4 @@
-using NumberUnionTypes
+using NumberUnions
 
 if VERSION >= v"0.7-"
     using Test
