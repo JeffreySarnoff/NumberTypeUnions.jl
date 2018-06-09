@@ -7,21 +7,23 @@
 ----
 
 
-### exports: Type Unions
+## exports: Type Unions
 
+#### Local Unions
 
-| Named Unions                               | Types gathered                             |
+| Union                                      | Types gathered                             |
 |:-------------------------------------------|:-------------------------------------------|
 | SysInt, SysUInt, SysFloat                  | {Int128 .. Int8}, {UInt128 .. UInt8}, ..   |
 | MachInt, MachUInt, MachFloat               | {Int64, Int32}, ..,  {Float64, Float32}    |
 | IntFloat64, IntFloat32, IntFloat16         | {Int64, Float64}, {Int32, Float32}, ..     |
 | Integer128, Integer64, Integer32, Integer8 | .., {Int64, UInt64},  {Int32, UInt32}, ..  |
 
-- Base.IEEEFloat (Union{Float64, Float32, Float16}) is reexported as IEEEFloat
+#### from Base
 
-&nbsp;
+Base.IEEEFloat (Union{Float64, Float32, Float16}) is reexported as IEEEFloat
 
-### exports: Type Functions
+
+## exports: Type Functions
 
 #### Type from sizeof(type)
 
