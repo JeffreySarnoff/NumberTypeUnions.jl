@@ -3,6 +3,12 @@
 
 #### Copyright © 2016-2018 by Jeffrey Sarnoff. This software is released under The MIT License.
 
+----
+
+
+
+[![][pkg-0.6-img]][pkg-0.6-url] [![][pkg-0.7-img]][pkg-0.7-url]  [![][travis-img]][travis-url]
+
 
 ----
 
