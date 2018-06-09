@@ -6,10 +6,8 @@
 
 ----
 
-## exports
-&nbsp;
 
-### Type Unions
+### exports: Type Unions
 
 &nbsp;
 
@@ -22,7 +20,8 @@
 
 - Base.IEEEFloat (Union{Float64, Float32, Float16}) is reexported as IEEEFloat
 
-### Type Functions
+
+### exports: Type Functions
 
 &nbsp;
 
