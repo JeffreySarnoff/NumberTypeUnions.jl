@@ -9,7 +9,6 @@
 
 ### exports: Type Unions
 
-&nbsp;
 
 | Named Unions                               | Types gathered                             |
 |:-------------------------------------------|:-------------------------------------------|
@@ -20,10 +19,9 @@
 
 - Base.IEEEFloat (Union{Float64, Float32, Float16}) is reexported as IEEEFloat
 
+&nbsp;
 
 ### exports: Type Functions
-
-&nbsp;
 
 #### Type from sizeof(type)
 
@@ -39,3 +37,5 @@ Int16
 bytes2Float( sizeof(Float32) )
 Float32
 ```
+
+----
