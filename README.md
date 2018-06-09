@@ -10,6 +10,8 @@
 
 ### Type Unions
 
+&nbsp;
+
 | Named Unions                               | Types gathered                             |
 |:-------------------------------------------|:-------------------------------------------|
 | SysInt, SysUInt, SysFloat                  | {Int128 .. Int8}, {UInt128 .. UInt8}, ..   |
@@ -23,9 +25,10 @@
 
 #### Type from sizeof(type)
 
+&nbsp;
+
 - bytes2Int, bytes2UInt, bytes2Float
 
-&nbsp;
 
 ```julia
 using NumberTypeUnions
