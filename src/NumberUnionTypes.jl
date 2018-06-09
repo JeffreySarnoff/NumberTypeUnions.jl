@@ -1,4 +1,4 @@
-module NumberTypeUnions
+module NumberUnionTypes
 
 export IEEEFloat,
        MachInt, MachUInt, MachFloat,
