@@ -57,7 +57,7 @@ const SysIntSizes   = [ Int8,    Int16,   Int32,   Int64,   Int128  ]
 const SysUIntSizes  = [ UInt8,   UInt16,  UInt32,  UInt64,  UInt128 ]
 const SysFloatSizes = [ Float16, Float16, Float32, Float64, Float64 ]
 
-@inline indexbysize(nbytes) = (nbytes >> 1) - (nbytes >> 3) - ((nbytes >> 4) << 1)
+@inline indexbysize(nbytes) = 1 + (nbytes >> 1) - (nbytes >> 3) - ((nbytes >> 4) << 1)
 
 bytes2Int(nbytes) = SysIntSizes[ indexbysize(nbytes) ]
 bytes2UInt(nbytes) = SysUIntSizes[ indexbysize(nbytes) ]
