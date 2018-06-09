@@ -47,3 +47,7 @@ Float32
 ```
 
 ----
+
+
+[travis-img]: https://travis-ci.org/JeffreySarnoff/NumberUnionTypes.jl.svg?branch=master
+[travis-url]: https://travis-ci.org/JeffreySarnoff/NumberUnionTypes.jl
