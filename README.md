@@ -7,6 +7,7 @@
 ----
 
 ## exports
+&nbsp;
 
 ### Type Unions
 
@@ -23,9 +24,9 @@
 
 ### Type Functions
 
-#### Type from sizeof(type)
-
 &nbsp;
+
+#### Type from sizeof(type)
 
 - bytes2Int, bytes2UInt, bytes2Float
 
