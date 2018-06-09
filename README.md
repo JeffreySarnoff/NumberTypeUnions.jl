@@ -7,13 +7,15 @@
 ----
 
 
-## exports: Unions
+## exports: Type Unions
 
-- IEEEFloat                                   # Union{Float64|32|16}, imported from Base
-- SysInt, SysUInt, SysFloat                   # {Int128 .. Int8}, {UInt128 .. UInt8}  
-- MachInt, MachUInt, MachFloat,               # {Int64, Int32},   {Float64, Float32}
-- IntFloat64, IntFloat32, IntFloat16          # {Int64, Float64}, {Int32, Float32}
-- Integer128, Integer64, Integer32, Integer8  # {Int64, UInt64},  {Int32, UInt32}
+| Union                                      | types contained                            |
+|:-------------------------------------------|:-------------------------------------------|
+| IEEEFloat                                  | # Union{Float64|32|16}, imported from Base |
+| SysInt, SysUInt, SysFloat                  | {Int128 .. Int8}, {UInt128 .. UInt8}, ..   |
+| MachInt, MachUInt, MachFloat               | {Int64, Int32}, ..,  {Float64, Float32}    |
+| IntFloat64, IntFloat32, IntFloat16         | {Int64, Float64}, {Int32, Float32}, ..     |
+| Integer128, Integer64, Integer32, Integer8 | .., {Int64, UInt64},  {Int32, UInt32}, ..  |
 
 ## exports: Type from sizeof(type)
 
