@@ -1,7 +1,7 @@
 # NumberTypeUnions.jl
 
 
-#### Copyright © 2015-2018 by Jeffrey Sarnoff. This software is released under The MIT License.
+#### Copyright © 2016-2018 by Jeffrey Sarnoff. This software is released under The MIT License.
 
 
 ----
