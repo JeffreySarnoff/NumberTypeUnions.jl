@@ -1,4 +1,4 @@
-# NumberTypeUnions.jl
+# NumberUnions.jl
 
 
 #### Copyright © 2016-2018 by Jeffrey Sarnoff. This software is released under The MIT License.
@@ -6,7 +6,7 @@
 ----
 
 
- [![][travis-img]][travis-url]
+ [![][pkg-0.7-img]][pkg-0.7-url]  [![][travis-img]][travis-url]
 
 
 ----
@@ -48,5 +48,10 @@ Float32
 ----
 
 
-[travis-img]: https://travis-ci.org/JeffreySarnoff/NumberUnionTypes.jl.svg?branch=master
-[travis-url]: https://travis-ci.org/JeffreySarnoff/NumberUnionTypes.jl
+[travis-img]: https://travis-ci.org/JeffreySarnoff/NumberUnions.jl.svg?branch=master
+[travis-url]: https://travis-ci.org/JeffreySarnoff/NumberUnions.jl
+
+[pkg-0.6-img]: http://pkg.julialang.org/badges/NumberUnions_0.6.svg
+[pkg-0.6-url]: http://pkg.julialang.org/?pkg=NumberUnions&ver=0.6
+[pkg-0.7-img]: http://pkg.julialang.org/badges/NumberUnions_0.7.svg
+[pkg-0.7-url]: http://pkg.julialang.org/?pkg=NumberUnions&ver=0.7
